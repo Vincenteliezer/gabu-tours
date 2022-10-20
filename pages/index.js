@@ -15,41 +15,31 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="bg-gradient-to-b  from-green-700 to to-yellow-100 h-screen overflow-y-scroll">
-        <NavBar />
-        <div className=" max-w-7xl mx-auto mt-7 px-2">
-          <div className="relative overflow-hidden h-[300px] sm:h-[400px] md:h-[500px] lg:h-[600] 2xl:h-[700]">
-            <Image
-              alt=""
-              objectFit="cover"
-              layout="fill"
-              src={bgHome}
-              className="rounded-3xl relative brightness-50 "
-            />
-            <h1 className="text-white top-1/2 text-center w-full absolute text-5xl md:text-8xl font-bold">
-              GABUH
-              <p className="absolute text-white text-center w-full text-base md:text-3xl mt-3">
-                Travel & Tours
-              </p>
-            </h1>
+      <main className="bg-gradient-to-b  from-green-700 to to-yellow-100 ">
+        <div className="">
+          <div className="h-screen">
+            <div className="relative overflow-hidden h-full ">
+              <NavBar />
+              <Image
+                alt=""
+                objectFit="cover"
+                layout="fill"
+                src={bgHome}
+                className=" relative brightness-50 "
+              />
+              <h1 className="text-white top-1/2 text-center w-full absolute text-5xl md:text-8xl font-bold">
+                GABUH
+                <p className="absolute text-white text-center w-full text-base md:text-3xl mt-3">
+                  Travel & Tours
+                </p>
+              </h1>
+              <div className="9xl text-white">Hey</div>
+            </div>
           </div>
 
-          <div className="mt-10 ">
-            <h1 className="text-white text-6xl font-bold flex justify-center">About </h1>
-            <p className="mt-10 text-xl text-justify bg-white p-4 rounded-2xl bg-opacity-20 mb-5">
-              Established in 2006, Gabuh Travel and Tours, is a full
-              service travel, tour operator and destination management company
-              which offers a wide array of services to cater the needs of travel
-              connoisseurs. We put forward unique solutions, paying careful
-              attention to each client’s individual needs – to deliver
-              successful and memorable destination management service that is
-              reliable, safe, affordable and enjoyable for all clients.
-            </p>
-          </div>
           <div className="">
-          <Service />
+            <Service />
           </div>
-       
         </div>
       </main>
 
