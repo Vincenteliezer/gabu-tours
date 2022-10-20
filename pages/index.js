@@ -3,6 +3,7 @@ import NavBar from "../components/NavBar";
 // import Main from "../components/layouts/Main";
 import Image from "next/image";
 import bgHome from "/public/images/bgHome.jpg";
+import Service from "../components/Service";
 // import Drawer from "../components/Drawer";
 
 export default function Home() {
@@ -14,7 +15,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="bg-gradient-to-b from-green-700 to to-yellow-100 h-screen overflow-y-scroll">
+      <main className="bg-gradient-to-b  from-green-700 to to-yellow-100 h-screen overflow-y-scroll">
         <NavBar />
         <div className=" max-w-7xl mx-auto mt-7 px-2">
           <div className="relative overflow-hidden h-[300px] sm:h-[400px] md:h-[500px] lg:h-[600] 2xl:h-[700]">
@@ -22,7 +23,6 @@ export default function Home() {
               alt=""
               objectFit="cover"
               layout="fill"
-             
               src={bgHome}
               className="rounded-3xl relative brightness-50 "
             />
@@ -30,19 +30,27 @@ export default function Home() {
               GABUH
               <p className="absolute text-white text-center w-full text-base md:text-3xl mt-3">
                 Travel & Tours
-                
               </p>
-              
             </h1>
-            
           </div>
 
-          <h1 className="text-justify">
-            
-          </h1>
+          <div className="mt-10 ">
+            <h1 className="text-white text-6xl font-bold flex justify-center">About </h1>
+            <p className="mt-10 text-xl text-justify bg-white p-4 rounded-2xl bg-opacity-20 mb-5">
+              Established in 2006, Gabuh Travel and Tours, is a full
+              service travel, tour operator and destination management company
+              which offers a wide array of services to cater the needs of travel
+              connoisseurs. We put forward unique solutions, paying careful
+              attention to each client’s individual needs – to deliver
+              successful and memorable destination management service that is
+              reliable, safe, affordable and enjoyable for all clients.
+            </p>
+          </div>
+          <div className="">
+          <Service />
+          </div>
+       
         </div>
-
-        <div className="max-w-7xl mx-auto"></div>
       </main>
 
       {/* <Drawer  /> */}
