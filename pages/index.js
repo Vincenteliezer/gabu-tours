@@ -16,7 +16,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="bg-gradient-to-b  from-green-700 to to-yellow-100 ">
+      <main className="bg-gradient-to-b  from-green-900 to to-yellow-100 ">
         <div className="">
           <div className="h-screen">
             <div className="relative overflow-hidden h-full ">
@@ -45,7 +45,7 @@ export default function Home() {
                   Travel & Tours
                 </p>
               </h1>
-              <div className="9xl text-white">Hey</div>
+              
             </div>
           </div>
 
