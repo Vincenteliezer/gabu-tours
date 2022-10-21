@@ -3,6 +3,7 @@ import NavBar from "../components/NavBar";
 // import Main from "../components/layouts/Main";
 import Image from "next/image";
 import bgHome from "/public/images/bgHome.jpg";
+import logoCo from "/public/images/logoCo.jpeg";
 import Service from "../components/Service";
 // import Drawer from "../components/Drawer";
 
@@ -15,7 +16,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="bg-gradient-to-b  from-green-700 to to-yellow-100 ">
+      <main className="bg-gradient-to-b  from-green-900 to to-yellow-100 ">
         <div className="">
           <div className="h-screen">
             <div className="relative overflow-hidden h-full ">
@@ -27,18 +28,32 @@ export default function Home() {
                 src={bgHome}
                 className=" relative brightness-50 "
               />
+              <div className="w-full top-20 text-center absolute">
+                <Image
+                  alt=""
+                  objectFit="cover"
+                  layout="fixed"
+                  height={100}
+                  width={100}
+                  src={logoCo}
+                  className="rounded-full shadow"
+                />
+              </div>
               <h1 className="text-white top-1/2 text-center w-full absolute text-5xl md:text-8xl font-bold">
                 GABUH
                 <p className="absolute text-white text-center w-full text-base md:text-3xl mt-3">
                   Travel & Tours
                 </p>
               </h1>
-              <div className="9xl text-white">Hey</div>
+              
             </div>
           </div>
 
           <div className="">
             <Service />
+          </div>
+          <div>
+          
           </div>
         </div>
       </main>
