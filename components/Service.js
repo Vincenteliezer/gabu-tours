@@ -12,7 +12,7 @@ function Service() {
   return (
     <div>
       <div className="mt-10 h-screen max-w-7xl mx-auto px-2 py-4">
-        <h1 className="text-white text-4xl font-bold flex justify-center bg-white w-fit rounded-full bg-opacity-30 px-6 py-2">
+        <h1 className="text-white text-4xl font-bold  bg-white w-fit rounded-full bg-opacity-30 px-6 py-2">
           Our Services
         </h1>
         <div className="flex overflow-x-auto mt-6 space-x-4 mb-12 scrollbar-hide">
@@ -100,7 +100,7 @@ function Service() {
           </div>
         </div>
         
-        <div className="relative h-96 min-w-[300px]">
+        {/* <div className="relative h-96 min-w-[300px]">
             <Image
               alt=""
               src={bgServices}
@@ -112,7 +112,7 @@ function Service() {
             <h1 className="absolute top-1/2 text-white text-center w-full text-6xl font-bold left-10 bg-opacity-40 px-3 py-2 rounded-full">
               Customer Satisfactory!
             </h1>
-          </div>
+          </div> */}
        
       </div>
     </div>
