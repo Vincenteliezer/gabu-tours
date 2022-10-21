@@ -3,6 +3,7 @@ import NavBar from "../components/NavBar";
 // import Main from "../components/layouts/Main";
 import Image from "next/image";
 import bgHome from "/public/images/bgHome.jpg";
+import logoCo from "/public/images/logoCo.jpeg";
 import Service from "../components/Service";
 // import Drawer from "../components/Drawer";
 
@@ -27,6 +28,17 @@ export default function Home() {
                 src={bgHome}
                 className=" relative brightness-50 "
               />
+              <div className="w-full top-20 text-center absolute">
+                <Image
+                  alt=""
+                  objectFit="cover"
+                  layout="fixed"
+                  height={100}
+                  width={100}
+                  src={logoCo}
+                  className="rounded-full shadow"
+                />
+              </div>
               <h1 className="text-white top-1/2 text-center w-full absolute text-5xl md:text-8xl font-bold">
                 GABUH
                 <p className="absolute text-white text-center w-full text-base md:text-3xl mt-3">
@@ -39,6 +51,9 @@ export default function Home() {
 
           <div className="">
             <Service />
+          </div>
+          <div>
+          
           </div>
         </div>
       </main>
