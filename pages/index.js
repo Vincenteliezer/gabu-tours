@@ -40,21 +40,21 @@ export default function Home() {
                 />
               </div>
               <h1 className="text-white top-1/2 text-center w-full absolute text-5xl md:text-8xl font-bold">
-                GABUH
+                GABUH Travel & Tours
                 <p className="absolute text-white text-center w-full text-base md:text-3xl mt-3">
-                  Travel & Tours
+                  We Bring only Best Tours
                 </p>
               </h1>
-              
+              <div className="absolute bottom-10 md:bottom-40 text-center w-full  ">
+                <button className=" btn glass w-fit text-white font-bold text-lg ">Book with Us</button>
+              </div>
             </div>
           </div>
 
           <div className="">
             <Service />
           </div>
-          <div>
-          
-          </div>
+          <div></div>
         </div>
       </main>
 
