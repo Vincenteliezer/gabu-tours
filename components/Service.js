@@ -6,7 +6,7 @@ import gabu8 from "../public/images/gabu8.jpg";
 import gabu7 from "../public/images/gabu7.jpg";
 import deliveryMan from "../public/images/deliveryMan.jpg";
 import gabu2 from "../public/images/gabu2.jpg";
-import bgServices from "../public/images/bgServices.jpg";
+
 
 function Service() {
   return (

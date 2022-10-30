@@ -5,6 +5,7 @@ import Image from "next/image";
 import bgHome from "/public/images/bgHome.jpg";
 import logoCo from "/public/images/logoCo.jpeg";
 import Service from "../components/Service";
+import About from "../components/About";
 // import Drawer from "../components/Drawer";
 
 export default function Home() {
@@ -16,7 +17,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="bg-gradient-to-b  from-green-900 to to-yellow-100 ">
+      <main className="bg-white ">
         <div className="">
           <div className="h-screen">
             <div className="relative overflow-hidden h-full ">
@@ -40,21 +41,25 @@ export default function Home() {
                 />
               </div>
               <h1 className="text-white top-1/2 text-center w-full absolute text-5xl md:text-8xl font-bold">
-                GABUH
+                GABUH Travel & Tours
                 <p className="absolute text-white text-center w-full text-base md:text-3xl mt-3">
-                  Travel & Tours
+                  We Bring only Best Tours
                 </p>
               </h1>
-              
+              <div className="absolute bottom-10 md:bottom-40 text-center w-full  ">
+                <button className=" btn glass w-fit text-white font-bold text-lg ">
+                  Book with Us
+                </button>
+              </div>
             </div>
           </div>
-
+          <div>
+            <About />
+          </div>
           <div className="">
             <Service />
           </div>
-          <div>
-          
-          </div>
+          <div></div>
         </div>
       </main>
 
